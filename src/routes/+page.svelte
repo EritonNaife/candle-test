@@ -9,32 +9,39 @@
 <main class="bg-[#FDEEEF] font-[Poppins]"> <!-- Added font -->
 
     <!-- Hero Section -->
-    <section class="hero-section relative h-screen overflow-hidden">
-        <div class="absolute inset-0 z-0">
-            <img src="" alt="" class="w-full h-full object-cover">
-            <!-- Gradient Overlay -->
-            <div class="absolute inset-0 bg-gradient-to-r from-[#FDEEEF]/60 to-transparent"></div>
+    <section class="hero relative h-screen overflow-hidden">
+      <!-- BG Image + Gradient -->
+      <div class="absolute inset-0 z-0">
+        <img src="YOUR_IMAGE_URL.jpg" alt="" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-r from-[#FDEEEF]/60 to-transparent"></div>
+      </div>
+    
+      <!-- Content -->
+      <div class="absolute bottom-10 left-4 p-4 md:bottom-60 md:left-20 md:p-10">
+        <h1 class="font-[PlayfairDisplay] font-bold text-4xl md:text-6xl text-[#8D3C42]">
+          Your Hero Title
+        </h1>
+    
+        <div class="mt-4 flex flex-col sm:flex-row gap-4">
+          <button
+            type="button"
+            class="w-full sm:w-auto bg-[#8D3C42] text-white px-6 py-3 sm:px-8 sm:py-3 rounded-lg
+                   hover:bg-[#D4A373] transition-colors duration-300"
+          >
+            Shop Now
+          </button>
+    
+          <button
+            type="button"
+            class="w-full sm:w-auto border-2 border-[#8D3C42] text-[#8D3C42] px-6 py-3 sm:px-8 sm:py-3 rounded-lg
+                   hover:bg-[#8D3C42] hover:text-white transition-colors duration-300"
+          >
+            Learn More
+          </button>
         </div>
-
-        <div class="absolute bottom-60 left-20 md:p-10">
-              <h1 class="text-6xl font-bold sm:text-4xl text-[#8D3C42] font-[PlayfairDisplay]"> <!-- Wine color + serif -->
-                Your Hero Title
-              </h1>
-             
-             <div class="mt-4 flex gap-4">
-                <button type="button" 
-                        class="btn bg-[#8D3C42] text-white px-8 py-3 rounded-lg 
-                               hover:bg-[#D4A373] transition-colors duration-300"> <!-- Primary CTA -->
-                    Shop Now
-                </button>
-                <button type="button" 
-                        class="btn border-2 border-[#8D3C42] text-[#8D3C42] px-8 py-3 rounded-lg
-                               hover:bg-[#8D3C42] hover:text-white transition-colors duration-300"> <!-- Secondary CTA -->
-                    Learn More
-                </button>
-             </div>
-          </div>
+      </div>
     </section>
+    
 
     <!-- Collections Section -->
     <section class="container mx-auto px-4 py-12 sm:px-6 md:py-16 lg:px-8">
