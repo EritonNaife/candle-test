@@ -16,7 +16,11 @@
 </script>
 
 <div class="group relative">
-  <div class="relative aspect-[3/4] overflow-hidden rounded-lg">
+  <div class="relative aspect-[3/4] overflow-hidden rounded-lg mx-auto w-full 
+  transform transition-all 
+  hover:-translate-y-2 
+  hover:shadow-xl
+  hover:ring-2 hover:ring-[#8D3C42]/10">
       <!-- Product Image -->
       <img
           src={imageSrc || "/placeholder.svg"}

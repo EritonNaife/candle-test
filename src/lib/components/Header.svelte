@@ -37,9 +37,9 @@
     <!-- Desktop Right Section -->
     <div class="hidden md:flex items-center space-x-10">
       <SearchBar />
-      <Icon icon="ph:user-light" class="text-2xl hover:text-[#D4A373] cursor-pointer" />
-      <Icon icon="ph:heart-light" class="text-2xl hover:text-[#D4A373] cursor-pointer" />
-      <Icon icon="ph:shopping-cart-simple-light" class="text-2xl hover:text-[#D4A373] cursor-pointer" />
+      <Icon icon="ph:user-light" class="text-2xl text-[#8D3C42] hover:text-[#D4A373] cursor-pointer" />
+      <Icon icon="ph:heart-light" class="text-2xl text-[#8D3C42] hover:text-[#D4A373] cursor-pointer" />
+      <Icon icon="ph:shopping-cart-simple-light" class="text-2xl text-[#8D3C42] hover:text-[#D4A373] cursor-pointer" />
     </div>
 
     <!-- Mobile Menu Button -->
@@ -48,7 +48,7 @@
       <Icon icon="ph:shopping-cart-simple-light" class="text-2xl text-[#8D3C42] hover:text-[#D4A373] cursor-pointer" />
       <button on:click={() => isMenuOpen = !isMenuOpen}>
         {#if isMenuOpen}
-          <Icon icon="ph:x-light" class="text-2xl hover:text-[#D4A373] cursor-pointer" />
+          <Icon icon="ph:x-light" class="text-2xl text-[#D4A372] hover:text-[#D4A373] cursor-pointer" />
         {:else}
           <Icon icon="ph:list-light" class="text-2xl text-[#8D3C42] hover:text-[#D4A373] cursor-pointer" />
         {/if}

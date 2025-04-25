@@ -10,3 +10,13 @@
 @source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
 
 
+/* Improve scroll snapping */
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* Better box sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
