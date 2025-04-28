@@ -39,7 +39,7 @@
       </div>
 
       <!-- Search bar area -->
-      <div class="px-4 py-3 bg-[#8D3C42]">
+      <div class="px-4 py-3">
           <SearchBar1 />
       </div>
 
