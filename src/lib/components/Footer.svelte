@@ -30,10 +30,10 @@
             <div>
                 <h4 class="text-lg text-primary-700 font-semibold mb-4">Quick Links</h4>
                 <ul class="space-y-2">
-                    <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Shop</a></li>
-                    <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Collections</a></li>
-                    <li><a href="#" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
-                    <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-[#D4A373] transition-colors">Shop</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-[#D4A373]  transition-colors">Collections</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-[#D4A373]  transition-colors">About Us</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-[#D4A373]  transition-colors">Contact</a></li>
                 </ul>
             </div>
 
@@ -41,10 +41,10 @@
             <div>
                 <h4 class="text-lg  text-primary-700 font-semibold mb-4">Customer Service</h4>
                 <ul class="space-y-2">
-                    <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Shipping & Returns</a></li>
-                    <li><a href="#" class="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
-                    <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
-                    <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-[#D4A373] transition-colors">Shipping & Returns</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-[#D4A373]  transition-colors">FAQ</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-[#D4A373]  transition-colors">Privacy Policy</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-[#D4A373]  transition-colors">Terms of Service</a></li>
                 </ul>
             </div>
 
