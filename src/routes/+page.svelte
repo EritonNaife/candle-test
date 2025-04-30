@@ -16,8 +16,8 @@
             <div class="absolute inset-0 bg-gradient-to-r from-[#FDEEEF]/60 to-transparent"></div>
         </div>
 
-        <div class="absolute bottom-60 left-20 md:p-10">
-              <h1 class="text-6xl font-bold sm:text-4xl text-[#8D3C42] font-[PlayfairDisplay]"> <!-- Wine color + serif -->
+        <div class="absolute bottom-20 left-20 md:p-10">
+              <h1 class="text-2xl font-bold sm:text-4xl text-[#8D3C42] font-[PlayfairDisplay]"> <!-- Wine color + serif -->
                 Your Hero Title
               </h1>
              
@@ -27,11 +27,7 @@
                                hover:bg-[#D4A373] transition-colors duration-300"> <!-- Primary CTA -->
                     Shop Now
                 </button>
-                <button type="button" 
-                        class="btn border-2 border-[#8D3C42] text-[#8D3C42] px-8 py-3 rounded-lg
-                               hover:bg-[#8D3C42] hover:text-white transition-colors duration-300"> <!-- Secondary CTA -->
-                    Learn More
-                </button>
+               
              </div>
           </div>
     </section>
