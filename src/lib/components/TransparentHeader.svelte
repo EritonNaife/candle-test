@@ -47,7 +47,7 @@
 </div>
 
 
-<header class="fixed top-10 left-0 w-full z-40 transition-all duration-300 backdrop-blur-sm {isScrolled ? scrolledColor : 'bg-transparent'} {isScrolled ? scrolledTextColor : textColor} ">
+<header class="fixed top-10 left-0 w-full z-40 transition-all duration-300 backdrop-blur-sm bg-transparent {isScrolled ? scrolledTextColor : textColor} ">
   <div class="container mx-auto px-4 py-4 flex justify-between items-center">
     <!-- Logo -->
     <a href="/" class="h1 mr-15">Logo</a>
