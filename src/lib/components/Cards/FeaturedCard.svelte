@@ -4,41 +4,36 @@
     export let description;
     export let price;
     export let Ratings;
-    export let  imageSrc;
-    export let imageAlt;
+    
   </script>
   
   <!-- Card wrapper: used to group everything, and apply group-hover effects -->
-  <div class="group relative flex flex-col items-start gap-10">
+  <div class="group relative flex flex-col items-start" role="article" aria-label={`${name} candle product card`}>
   
     <!-- Image container (relative to allow absolute positioning inside it) -->
-    <div class="relative w-[360px] h-[540px] group">
-      
-      <!-- Main product image -->
+    <div class="relative w-full aspect-[2/3] h-60 lg:h-110 group bg-black">
       <img
-        src={imageSrc}
-        alt={imageAlt}
-        class="object-cover w-full h-full" 
+        src="/images/product.jpg"
+        alt="Stylish Leather Bag"
+        class="object-cover w-full h-full"
       />
-  
-      <!-- Sliding Buy Now button overlay -->
+    
       <div
-        class="absolute inset-x-0 bottom-0 flex items-center justify-center 
-                opacity-0 transition-all
-               p-2 transition-transform duration-300 
-               translate-y-full group-hover:-translate-y-2 group-hover:opacity-100"
+        class="absolute inset-x-0 bottom-0 flex items-center justify-center
+               opacity-0 translate-y-full transition-all duration-300
+               group-hover:opacity-100 group-hover:-translate-y-2 p-2"
       >
-        <!-- Buy Now button -->
         <button
-          class="w-full bg-black hover:bg-[#D4A373] text-white 
-                 py-2 px-4 rounded-md font-medium text-sm 
+          class="w-full bg-black hover:bg-[#D4A373] text-white
+                 py-2 px-4 rounded-md font-medium text-sm
                  transition-colors duration-200"
+          aria-label="Buy this product"
         >
           Buy Now
         </button>
       </div>
     </div>
-  
+    
     <!-- Favorite (heart) icon positioned top-right -->
     <div class="absolute left-[90%] top-[1%] group/icon cursor-pointer transition-all duration-500">
         <!-- Outlined heart (default) -->
@@ -53,11 +48,11 @@
           class="size-7 hidden group-hover/icon:block transition-colors"
           style="color: #f00"
         />
-      </div>
+    </div>
     
   
     <!-- Product description area -->
-    <div class="content-holder flex flex-col items-start gap-5">
+    <div class="content-holder flex flex-col items-start gap-5 text-black">
       <p>{name}</p>
       <p>{description}</p>
       <p>{price}</p>

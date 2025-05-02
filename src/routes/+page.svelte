@@ -7,7 +7,7 @@
 
 </script>
 
-<main class="bg-[#FDEEEF] font-[Poppins]"> 
+<main class="bg-[#FDEEEF]"> 
 
 
     <section class="hero-section relative h-screen overflow-hidden">
@@ -40,16 +40,13 @@
     <!-- Enhanced Featured Section -->
 <section class="featured py-12 md:min-h-[600px] bg-[#F9F5F3] overflow-hidden">
     <div class="container mx-auto px-4">
-        <div class="flex flex-col items-center text-center mb-8">
+        <div class="flex justify-center gap-5 mb-8">
             <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4 text-[#8D3C42] font-[PlayfairDisplay] 
                 animate-fade-in-up">
                 You Might Like
             </h2>
-            <p class="text-lg leading-relaxed max-w-prose text-[#5A5A5A] 
-                       opacity-0 animate-fade-in-delayed">
-                Obsessed with scents? Same. These candles are seriously worth a sniff —
-                your next favorite might be right here.
-            </p>
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4 text-[#8D3C42] font-[PlayfairDisplay] 
+            animate-fade-in-up">Whats New</h2>
         </div>
   
         <!-- Mobile Carousel -->
@@ -58,15 +55,15 @@
                         snap-x snap-mandatory">
                 {#each data.featuredProducts as product}
                     <div class="flex-shrink-0 w-64 snap-center">
-                        <CardRating
-                        name={product.name}
-                        description={product.description}
-                        price={product.price}
-                        rating={product.rating}
-                        reviews={product.reviews}
-                        imageSrc={product.imageSrc}
-                       
-                    />
+                       <CardRating
+                    name={product.name}
+                    description={product.description}
+                    price={product.price}
+                    rating={product.rating}
+                    reviews={product.reviews}
+                    imageSrc={product.imageSrc}
+                   
+                />
                     </div>
                 {/each}
             </div>
@@ -125,17 +122,18 @@
 
     <!-- CTA Section -->
     <section class="call-to-action py-20 bg-[#8D3C42]"> <!-- Wine background -->
-        <div class="container mx-auto px-4">
+        <div class="container lg:px-4">
             <div class="flex flex-col items-center text-center space-y-8">
-                <h2 class="text-4xl text-black md:text-5xl font-bold text-white tracking-tight font-[PlayfairDisplay]">
+                <h2 class="text-3xl text-black md:text-5xl font-bold text-white tracking-tight font-[PlayfairDisplay]">
                   Join Our Community
                 </h2>
-                <p class="text-xl text-[#FDEEEF] max-w-2xl"> <!-- Light pink text -->
+                <p class="max-w-100 text-[#FDEEEF] lg:text-xl max-w-2xl"> <!-- Light pink text -->
                     Discover the perfect scent for your space. Sign up now for exclusive offers and early access.
                 </p>
+                
                 <div class="flex flex-col sm:flex-row gap-4">
                     <button type="button" 
-                            class="btn bg-[#D4A373] text-[#8D3C42] px-8 py-3 rounded-lg
+                            class="btn bg-[#D4A373] text-[#8D3C42] rounded-lg px-8 py-3 
                                    hover:bg-[#C27983] hover:text-white transition-colors"> <!-- Gold button -->
                         Shop Now
                     </button>
