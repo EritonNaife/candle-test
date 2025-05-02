@@ -6,10 +6,11 @@
   export let tag: string; // Optional tag
 </script>
 
-<div class="group overflow-hidden rounded-2xl bg-white shadow-lg hover:shadow-xl transition-shadow duration-300">
+<div class="w-100 mx-auto group overflow-hidden rounded-2xl bg-white shadow-lg hover:shadow-xl transition-shadow 
+            duration-300 lg:w-120">
   <div class="relative">
     <!-- Image Container -->
-    <div class="aspect-w-4 aspect-h-5">
+    <div class="aspect-[4/3]">
       <img
         src={imageSrc}
         alt={imageAlt}
@@ -19,7 +20,7 @@
 
     <!-- Content Overlay -->
     <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-[#8D3C42]/80 to-transparent">
-      <h3 class="text-lg font-semibold text-white">{title}</h3>
+      <h3 class="text-lg font-semibold text-white md:text-xl">{title}</h3>
       <p class="mt-1 text-sm text-gray-200">{description}</p>
     </div>
 
@@ -30,4 +31,5 @@
       </span>
     {/if}
   </div>
+
 </div>

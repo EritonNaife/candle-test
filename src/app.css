@@ -20,3 +20,20 @@ html {
 *, *::before, *::after {
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'linotype-didot';
+    src: url('/fonts/linotype-didot/DidotLTPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'linotype-didot', serif;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
